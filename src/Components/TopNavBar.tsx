@@ -10,10 +10,13 @@ import tripteamLogo from "../tripteamLogo.jpeg";
 const TopNavBar: React.FC = () => {
   return (
     <AppBar
-      position="static"
+      position="fixed"
       sx={{
-        backgroundColor: "transparent",
+        backgroundColor: "white",
         boxShadow: "none",
+        top: 0,
+        left: 0,
+        right: 0,
       }}
     >
       <Toolbar

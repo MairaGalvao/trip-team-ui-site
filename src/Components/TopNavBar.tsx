@@ -11,7 +11,10 @@ const TopNavBar: React.FC = () => {
   return (
     <AppBar
       position="static"
-      sx={{ backgroundColor: "transparent", boxShadow: "none" }}
+      sx={{
+        backgroundColor: "transparent",
+        boxShadow: "none",
+      }}
     >
       <Toolbar
         sx={{
@@ -20,12 +23,14 @@ const TopNavBar: React.FC = () => {
           alignItems: "center",
         }}
       >
-        {/* Left: Logo */}
         <IconButton>
-          <img src={tripteamLogo} alt="Logo" style={{ height: 40 }} />
+          <img
+            src={tripteamLogo}
+            alt="Logo"
+            style={{ height: 40, marginLeft: -25 }}
+          />
         </IconButton>
 
-        {/* Right: Icons */}
         <Box
           sx={{
             display: "flex",

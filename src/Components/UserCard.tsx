@@ -20,10 +20,10 @@ const UserCard: React.FC<UserCardProps> = ({
       display="flex"
       alignItems="center"
       justifyContent="space-between"
-      padding={1}
+      paddingLeft={4}
+      paddingRight={2}
       bgcolor="background.paper"
       width="100%"
-      maxWidth={400}
     >
       <Avatar src={imageUrl} alt={title} sx={{ width: 56, height: 56 }} />
 

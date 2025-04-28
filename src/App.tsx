@@ -1,10 +1,10 @@
 import React from "react";
-import UserCardContainer from "./Components/UserCardContainer";
 import TopNavBar from "./Components/TopNavBar";
-
-import { Box } from "@mui/material";
-import Footer from "./Components/Footer";
 import FilterToolbar from "./Components/FilterToolbar";
+import Actions from "./Components/Actions";
+import UserCardContainer from "./Components/UserCardContainer";
+import Footer from "./Components/Footer";
+import { Box } from "@mui/material";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +12,7 @@ const App: React.FC = () => {
       <Box>
         <TopNavBar />
         <FilterToolbar />
+        <Actions />
         <UserCardContainer />
         <Footer />
       </Box>

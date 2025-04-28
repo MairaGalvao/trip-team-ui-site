@@ -17,8 +17,6 @@ const FilterToolbar: React.FC = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          paddingLeft: 2,
-          paddingRight: 2,
         }}
       >
         <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
